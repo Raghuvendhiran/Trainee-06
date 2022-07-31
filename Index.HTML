@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<link rel="stylesheet" href="./bootstrap.min.css">
+<link rel="stylesheet" href="./Form.css">
+
+<body>
+    <section>
+        <h1 class="mt-5 ms-3">DOM Manipulation with Forms</h1>
+        <table class="table mt-4 ms-1" id="Table">
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Address</th>
+                    <th>Pincode</th>
+                    <th>Gender</th>
+                    <th>State</th>
+                    <th>Country</th>
+                </tr>
+            </thead>
+        </table>
+        <form onsubmit="Add(event)">
+            <input class="mt-5 ms-3" type="text" id="s.no" placeholder="Enter your details S.No">
+            <input class="mt-5 ms-3" type="text" id="First Name" placeholder="Enter your details First Name">
+            <input class="mt-5 ms-3" type="text" id="Last Name" placeholder="Enter your details Last Name">
+            <input class="mt-5 ms-3" type="text" id="Address" placeholder="Enter your details Address">
+            <input class="mt-5 ms-3" type="text" id="Pincode" placeholder="Enter your details Pincode">
+            <input class="mt-5 ms-3" type="text" id="Gender" placeholder="Enter your details Gender">
+            <input class="mt-5 ms-3" type="text" id="State" placeholder="Enter your details State">
+            <input class="mt-5 ms-3" type="text" id="Country" placeholder="Enter your details Country">
+            <input class="mt-4 ms-4" type="submit" value="On Submit">
+            <input class="mt-4 ms-4" type="reset" id="submit" value="Clear">
+        </form>
+    </section>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="jquery.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
